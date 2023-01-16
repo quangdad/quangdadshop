@@ -9,8 +9,7 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
-      @include('partials.content-header', ['name' => '##', 'key' => 'Trang chủ'])      
-
+      @include('partials.content-header', ['name' => 'Danh mục sản phẩm', 'key' => 'Sản phẩm'])      
   
       <div class="content">
         <div class="container-fluid">

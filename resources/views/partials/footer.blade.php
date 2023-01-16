@@ -9,22 +9,22 @@
         <!-- Right -->
         <div>
           <a href="" class="me-4 text-reset">
-            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-facebook-f   mr-md-4 mr-3  "></i>
           </a>
           <a href="" class="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter   mr-md-4 mr-3  "></i>
           </a>
           <a href="" class="me-4 text-reset">
-            <i class="fab fa-google"></i>
+            <i class="fab fa-google   mr-md-4 mr-3  "></i>
           </a>
           <a href="" class="me-4 text-reset">
-            <i class="fab fa-instagram"></i>
+            <i class="fab fa-instagram   mr-md-4 mr-3  "></i>
           </a>
           <a href="" class="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-linkedin   mr-md-4 mr-3  "></i>
           </a>
           <a href="" class="me-4 text-reset">
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github   mr-md-4 mr-3  "></i>
           </a>
         </div>
         <!-- Right -->

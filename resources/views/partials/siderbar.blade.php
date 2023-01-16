@@ -1,9 +1,9 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="adminlte/index3.html" class="brand-link" >
-      <img src="adminlte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">QuangDadShop</span>
+    <a href="{{ route('home')}}" class="brand-link" >
+      <img src="/adminlte/dist/img//adminlteLogo.png" alt="/adminlte Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">QUANGDAD shop</span>
     </a>
 
     <!-- Sidebar -->
@@ -11,7 +11,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="adminlte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="/adminlte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Lê Quang Đạt</a>
@@ -45,9 +45,9 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="http://www.google.com" class="nav-link active">
+                <a href="{{ route('categories.index')}}" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Active Page</p>
+                  <p>Danh mục sản phẩm</p>
                 </a>
               </li>
               <li class="nav-item">
