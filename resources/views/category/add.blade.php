@@ -14,20 +14,22 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-10">
-                <form>
+                <form action="{{ route('category.store') }}" method="POST">
+                  @csrf
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label" >Tên danh mục</label>
-                      <input type="input" class="form-control" aria-describedby="emailHelp" placeholder="Nhập tên danh mục" required>
+                      <input type="text" 
+                      class="form-control" 
+                      name="name" 
+                      placeholder="Nhập tên danh mục" 
+                      required>
                     </div>
                     <div class="mb-3 ">
                         <label for="exampleInputEmail1" class="form-label">ID danh mục cha</label>
                         <div class="form-group">
-                          <select class="custom-select" required>
-                            <option value="">Chọn ID danh mục cha</option>
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
+                          <select class="custom-select" name="parent_id" required>
+                            <option value="0">Chọn ID danh mục cha</option>
+                            {!! $htmlOption !!}
                           </select>
                           <div class="invalid-feedback">Example invalid custom select feedback</div>
                         </div>

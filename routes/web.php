@@ -29,6 +29,10 @@ Route::prefix('categories')->group(function () {
         'as' => 'categories.index',
         'uses' => 'CategoryController@index'
     ]);
+    Route::post('/store', [
+        'as' => 'category.store',
+        'uses' => 'CategoryController@store'
+    ]);
 });
 
 Route::prefix('')->group(function () {
@@ -37,3 +41,4 @@ Route::prefix('')->group(function () {
         'uses' => 'HomeController@home'
     ]);
 });
+
